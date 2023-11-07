@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Intelligence Science and Technology, Peking University, 2019-2023
-* Ph.D. in Computer Science, University of Maryland, College Park, 2013-Present
+* Ph.D. in Computer Science, University of Maryland, College Park, 2023-Present
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 <!-- Work experience
