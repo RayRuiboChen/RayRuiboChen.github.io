@@ -19,13 +19,7 @@ Publications
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**\\
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang\\
-*Preprint, 2024. \[[Arxiv](https://arxiv.org/abs/2402.12501)\]*
-
-
-**GPT-4 Vision on Medical Image Classification--A Case Study on COVID-19 Dataset**\\
-**Ruibo Chen**, Tianyi Xiong, Yihan Wu, Guodong Liu, Zhengmian Hu, Lichang Chen, Yanshuo Chen, Chenxi Liu, Heng Huang\\
-*Preprint, 2023. \[[Arxiv](https://arxiv.org/abs/2310.18498)\]*
-
+*Preprint, 2024. \[[Arxiv](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter)\]*
 
 **Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**\\
 **Ruibo Chen**, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun\\
