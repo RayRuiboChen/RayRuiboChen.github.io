@@ -22,12 +22,12 @@ Preprints
 
 **A Watermark for Order-Agnostic Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*Preprint, submitted to ICLR 2024 \[[Arxiv](https://arxiv.org/abs/2410.13805)]*
+*Preprint, submitted to ICLR 2025 \[[Arxiv](https://arxiv.org/abs/2410.13805)]*
 
 
 **Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions**<br>
 Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang, Heng Huang<br>
-*Preprint, submitted to ICLR 2024 \[[Arxiv](https://arxiv.org/abs/2406.02603)]*
+*Preprint, submitted to ICLR 2025 \[[Arxiv](https://arxiv.org/abs/2406.02603)]*
 
 
 Publications
