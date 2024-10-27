@@ -38,11 +38,11 @@ Publications
 *ACL Findings, 2024. \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter)\]*
 
 **ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
-Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang
+Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang<br>
 *NeurIPS, 2024. \[[Paper](https://neurips.cc/virtual/2024/poster/96006)\]*
 
 **Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
-Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang
+Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang<br>
 *ECCV, 2024. \[[Paper](https://arxiv.org/pdf/2403.09857), [Code](https://github.com/DawnLIU35/FSCIL-ASP)\]*
 
 **Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**<br>
