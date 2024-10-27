@@ -35,7 +35,7 @@ Publications
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*ACL Findings, 2024. \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter)\]*
+*ACL Findings, 2024. \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter), [Models&Datasets](https://huggingface.co/RayRuiboChen)\]*
 
 **ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
 Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang<br>
@@ -47,7 +47,7 @@ Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, He
 
 **Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**<br>
 **Ruibo Chen**, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun<br>
-*KDD Workshop on Machine Learning in Finance, 2023. \[[Paper](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE), [Models&Datasets](https://huggingface.co/RayRuiboChen)\]*
+*KDD Workshop on Machine Learning in Finance, 2023. \[[Paper](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE)\]*
 
 **Stock Trading Volume Prediction with Dual-Process Meta-Learning**<br>
 **Ruibo Chen**, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun<br>
