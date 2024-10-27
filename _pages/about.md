@@ -18,16 +18,16 @@ Preprints
 ======
 **De-mark: Watermark Removal in Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*Preprint, submitted to NAACL 2025 \[[Arxiv](https://arxiv.org/abs/2410.13808)]*
+*Preprint, submitted to NAACL 2025 \[[Paper](https://arxiv.org/abs/2410.13808)]*
 
 **A Watermark for Order-Agnostic Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*Preprint, submitted to ICLR 2025 \[[Arxiv](https://arxiv.org/abs/2410.13805)]*
+*Preprint, submitted to ICLR 2025 \[[Paper](https://arxiv.org/abs/2410.13805)]*
 
 
 **Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions**<br>
 Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang, Heng Huang<br>
-*Preprint, submitted to ICLR 2025 \[[Arxiv](https://arxiv.org/abs/2406.02603)]*
+*Preprint, submitted to ICLR 2025 \[[Paper](https://arxiv.org/abs/2406.02603)]*
 
 
 Publications
@@ -35,15 +35,23 @@ Publications
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*ACL Findings, 2024. \[[Arxiv](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter)\]*
+*ACL Findings, 2024. \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter)\]*
+
+**ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
+Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang
+*NeurIPS, 2024. \[[Paper](https://neurips.cc/virtual/2024/poster/96006)\]*
+
+**Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
+Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang
+*ECCV, 2024. \[[Paper](https://arxiv.org/pdf/2403.09857), [Code](https://github.com/DawnLIU35/FSCIL-ASP)\]*
 
 **Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**<br>
 **Ruibo Chen**, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun<br>
-*KDD Workshop on Machine Learning in Finance, 2023. \[[Arxiv](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE)\]*
+*KDD Workshop on Machine Learning in Finance, 2023. \[[Paper](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE), [Models&Datasets](https://huggingface.co/RayRuiboChen)\]*
 
 **Stock Trading Volume Prediction with Dual-Process Meta-Learning**<br>
 **Ruibo Chen**, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun<br>
-*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* **(Oral)**. *\[[Arxiv](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]*
+*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* **(Oral)**. *\[[Paper](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]*
 
 Selected Honors and Awards
 ======
