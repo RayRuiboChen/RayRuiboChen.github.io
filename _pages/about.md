@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun.org/) during my undergraduate study.
+I am a second-year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun.org/) during my undergraduate study.
 
 
 My research interests are about large language models and large vision-language models.
