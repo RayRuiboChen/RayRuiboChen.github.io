@@ -18,16 +18,16 @@ Preprints
 ======
 **De-mark: Watermark Removal in Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*Preprint, submitted to NAACL 2025 \[[Paper](https://arxiv.org/abs/2410.13808)]*
+*Preprint, under review. \[[Paper](https://arxiv.org/abs/2410.13808)]*
 
 **A Watermark for Order-Agnostic Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*Preprint, submitted to ICLR 2025 \[[Paper](https://arxiv.org/abs/2410.13805)]*
+*Preprint, under review. \[[Paper](https://arxiv.org/abs/2410.13805)]*
 
 
 **Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions**<br>
 Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang, Heng Huang<br>
-*Preprint, submitted to ICLR 2025 \[[Paper](https://arxiv.org/abs/2406.02603)]*
+*Preprint, under review. \[[Paper](https://arxiv.org/abs/2406.02603)]*
 
 
 Publications
@@ -40,6 +40,10 @@ Publications
 **ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
 Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang<br>
 *NeurIPS, 2024. \[[Paper](https://neurips.cc/virtual/2024/poster/96006)\]*
+
+**Enhancing Biosecurity with Watermarked Protein Design**<br>
+Yanshuo Chen\*, Zhengmian Hu\*, Yihan Wu, **Ruibo Chen**, Yongrui Jin, Marcus Zhan, Wei Chen, Heng Huang<br>
+*Accepted by Bioinformatics. \[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract)\], \[[Code](https://github.com/poseidonchan/ProteinWatermark)\]*
 
 **Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
 Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang<br>
