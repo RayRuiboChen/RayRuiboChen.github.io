@@ -20,10 +20,6 @@ Preprints
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
 *Preprint, under review. \[[Paper](https://arxiv.org/abs/2410.13808)]*
 
-**A Watermark for Order-Agnostic Language Models**<br>
-**Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*Preprint, under review. \[[Paper](https://arxiv.org/abs/2410.13805)]*
-
 
 **Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions**<br>
 Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang, Heng Huang<br>
@@ -32,6 +28,10 @@ Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang 
 
 Publications
 ======
+
+**A Watermark for Order-Agnostic Language Models**<br>
+**Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
+*ICLR, 2025. \[[Paper](https://arxiv.org/abs/2410.13805)]*
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
