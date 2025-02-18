@@ -16,6 +16,11 @@ My research interests are about large language models and large vision-language 
 
 Preprints
 ======
+**Improved Unbiased Watermark for Large Language Models**<br>
+**Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
+*Preprint, under review. \[[Paper](https://arxiv.org/abs/2502.11268)]*
+
+
 **De-mark: Watermark Removal in Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
 *Preprint, under review. \[[Paper](https://arxiv.org/abs/2410.13808)]*
