@@ -21,10 +21,6 @@ Preprints
 *Preprint, under review. \[[Paper](https://arxiv.org/abs/2502.11268)]*
 
 
-**De-mark: Watermark Removal in Large Language Models**<br>
-**Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*Preprint, under review. \[[Paper](https://arxiv.org/abs/2410.13808)]*
-
 
 **Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions**<br>
 Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang, Heng Huang<br>
@@ -33,6 +29,10 @@ Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang 
 
 Publications
 ======
+
+**De-mark: Watermark Removal in Large Language Models**<br>
+**Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
+*ICML, 2025. \[[Paper](https://arxiv.org/abs/2410.13808)]*
 
 **A Watermark for Order-Agnostic Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
