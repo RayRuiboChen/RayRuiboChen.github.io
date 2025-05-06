@@ -44,11 +44,11 @@ Publications
 
 **ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
 Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang<br>
-*NeurIPS, 2024. \[[Paper](https://neurips.cc/virtual/2024/poster/96006)\]*
+*NeurIPS, 2024. \[[Paper](https://neurips.cc/virtual/2024/poster/96006), [Code](https://github.com/JunfengGo/ZeroMark)\]*
 
 **Enhancing Biosecurity with Watermarked Protein Design**<br>
 Yanshuo Chen\*, Zhengmian Hu\*, Yihan Wu, **Ruibo Chen**, Yongrui Jin, Marcus Zhan, Wei Chen, Heng Huang<br>
-*Accepted by Bioinformatics. \[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract)\], \[[Code](https://github.com/poseidonchan/ProteinWatermark)\]*
+*Bioinformatics, 2025. \[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract), [Code](https://github.com/poseidonchan/ProteinWatermark)\]*
 
 **Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
 Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang<br>
