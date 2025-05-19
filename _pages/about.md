@@ -35,6 +35,10 @@ Publications
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
 *ICLR, 2025. \[[Paper](https://arxiv.org/abs/2410.13805)]*
 
+**A Watermark for Auto-Regressive Speech Generation Models**<br>
+Yihan Wu\*, **Ruibo Chen\***, Georgios Milis\*, Junfeng Guo, Heng Huang<br>
+*Interspeech, 2025.*
+
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
 *ACL Findings, 2024. \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter), [Models&Datasets](https://huggingface.co/RayRuiboChen)\]*
