@@ -14,13 +14,6 @@ I am a second-year Ph.D. student in Computer Science at the University of Maryla
 My research interests are about large language models and large vision-language models.
 
 
-Preprints
-======
-**Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions**<br>
-Yihan Wu\*, **Ruibo Chen\***, Zhengmian Hu, Yanshuo Chen, Junfeng Guo, Hongyang Zhang, Heng Huang<br>
-*Preprint, under review. \[[Paper](https://arxiv.org/abs/2406.02603)]*
-
-
 Publications
 ======
 **Improved Unbiased Watermark for Large Language Models**<br>
@@ -37,7 +30,7 @@ Publications
 
 **A Watermark for Auto-Regressive Speech Generation Models**<br>
 Yihan Wu\*, **Ruibo Chen\***, Georgios Milis\*, Junfeng Guo, Heng Huang<br>
-*Interspeech, 2025.*
+*Interspeech, 2025* (<span style="color:red">Oral</span>).
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
@@ -61,7 +54,15 @@ Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, He
 
 **Stock Trading Volume Prediction with Dual-Process Meta-Learning**<br>
 **Ruibo Chen**, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun<br>
-*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* **(Oral)**. *\[[Paper](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]*
+*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* (<span style="color:red">Oral</span>). *\[[Paper](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]*
+
+
+Experiences
+======
+Research Scientist Intern at TikTok, Feb. 2025 - Sep. 2025
+
+
+
 
 Selected Honors and Awards
 ======
