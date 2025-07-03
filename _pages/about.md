@@ -18,11 +18,11 @@ Publications
 ======
 **Improved Unbiased Watermark for Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*ACL, 2025. \[[Paper](https://arxiv.org/abs/2502.11268)]*
+*ACL, 2025. \[[Paper](https://arxiv.org/abs/2502.11268), [Code](https://github.com/RayRuiboChen/MCMark)\]*
 
 **De-mark: Watermark Removal in Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*ICML, 2025. \[[Paper](https://arxiv.org/abs/2410.13808)]*
+*ICML, 2025. \[[Paper](https://arxiv.org/abs/2410.13808), [Code](https://github.com/RayRuiboChen/De-mark)\]*
 
 **A Watermark for Order-Agnostic Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
