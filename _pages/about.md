@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun26.github.io/) during my undergraduate study.
+I am a third-year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun26.github.io/) during my undergraduate study.
 
 
 My research interests are about large language models and large vision-language models.
@@ -30,7 +30,7 @@ Publications
 
 **A Watermark for Auto-Regressive Speech Generation Models**<br>
 Yihan Wu\*, **Ruibo Chen\***, Georgios Milis\*, Junfeng Guo, Heng Huang<br>
-*Interspeech, 2025* (<span style="color:red">Oral</span>).
+*Interspeech, 2025* (<span style="color:red">Oral</span>). *\[[Paper](https://www.isca-archive.org/interspeech_2025/wu25k_interspeech.pdf)]*
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
