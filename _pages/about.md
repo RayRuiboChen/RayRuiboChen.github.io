@@ -16,7 +16,7 @@ I’m always happy to connect! Feel free to email me if you’re interested in m
 Preprints
 ======
 **An Ensemble Framework for Unbiased Language Model Watermarking**<br>
-**Ruibo Chen\***, Yihan Wu*, Georgios Milis, Heng Huang<br>
+**Ruibo Chen\***, Yihan Wu\*, Georgios Milis, Heng Huang<br>
 *arXiv, 2025*
 
 **Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
