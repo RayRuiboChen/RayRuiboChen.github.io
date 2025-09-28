@@ -8,17 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun26.github.io/) during my undergraduate study.
+I am a third-year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun26.github.io/) during my undergraduate study. I am interested in building stronger large language models and vision-language models, alongside efforts to enhance their reliability and ensure safe use.
+
+I’m always happy to connect! Feel free to email me if you’re interested in my research or possible collaborations!
 
 
-My research interests are about large language models and large vision-language models.
+Preprints
+======
+**An Ensemble Framework for Unbiased Language Model Watermarking**<br>
+**Ruibo Chen\***, Yihan Wu*, Georgios Milis, Heng Huang<br>
+*arXiv, 2025*
+
+**Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
+Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang<br>
+*arXiv, 2025*
+
+**Model Correlation Detection via Random Selection Probing**<br>
+**Ruibo Chen**, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang<br>
+*arXiv, 2025*
 
 
 Publications
 ======
 **Robust Distortion-Free Watermark for Autoregressive Audio Generation Models**<br>
 Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
-*NeurIPS, 2025*
+*NeurIPS, 2025 \[[Paper](https://neurips.cc/virtual/2025/poster/117426)\]*
 
 **Improved Unbiased Watermark for Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
