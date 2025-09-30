@@ -15,6 +15,10 @@ I’m always happy to connect! Feel free to email me if you’re interested in m
 
 Preprints
 ======
+**Improving Text-to-Image Generation with Input-Side Inference-Time Scaling**<br>
+**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
+*arXiv, 2025*
+
 **An Ensemble Framework for Unbiased Language Model Watermarking**<br>
 **Ruibo Chen\***, Yihan Wu\*, Georgios Milis, Heng Huang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24043)\]*
@@ -26,11 +30,6 @@ Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pan
 **Model Correlation Detection via Random Selection Probing**<br>
 **Ruibo Chen**, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24171)\]*
-
-
-**Improving Text-to-Image Generation with Input-Side Inference-Time Scaling**<br>
-**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
-*arXiv, 2025*
 
 Publications
 ======
