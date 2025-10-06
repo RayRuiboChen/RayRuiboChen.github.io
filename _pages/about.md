@@ -25,7 +25,7 @@ Preprints
 
 **Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
 Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang<br>
-*arXiv, 2025*
+*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.02962)\]*
 
 **Model Correlation Detection via Random Selection Probing**<br>
 **Ruibo Chen**, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang<br>
