@@ -17,7 +17,7 @@ Preprints
 ======
 **Improving Text-to-Image Generation with Input-Side Inference-Time Scaling**<br>
 **Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
-*arXiv, 2025*
+*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
 
 **An Ensemble Framework for Unbiased Language Model Watermarking**<br>
 **Ruibo Chen\***, Yihan Wu\*, Georgios Milis, Heng Huang<br>
