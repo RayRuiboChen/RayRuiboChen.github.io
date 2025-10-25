@@ -35,7 +35,7 @@ Publications
 ======
 **Robust Distortion-Free Watermark for Autoregressive Audio Generation Models**<br>
 Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
-*NeurIPS, 2025 \[[Paper](https://neurips.cc/virtual/2025/poster/117426)\]*
+*NeurIPS, 2025 \[[Paper](https://neurips.cc/virtual/2025/poster/117426), [Code](https://github.com/g-milis/AlignedIS)\]*
 
 **Improved Unbiased Watermark for Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
@@ -47,11 +47,11 @@ Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
 
 **A Watermark for Order-Agnostic Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*ICLR, 2025 \[[Paper](https://arxiv.org/abs/2410.13805)]*
+*ICLR, 2025 \[[Paper](https://arxiv.org/abs/2410.13805), [Code](https://arxiv.org/abs/2410.13805)\]*
 
 **A Watermark for Auto-Regressive Speech Generation Models**<br>
 Yihan Wu\*, **Ruibo Chen\***, Georgios Milis\*, Junfeng Guo, Heng Huang<br>
-*Interspeech, 2025* (<span style="color:red">Oral</span>). *\[[Paper](https://www.isca-archive.org/interspeech_2025/wu25k_interspeech.pdf)]*
+*Interspeech, 2025* (<span style="color:red">Oral</span>). *\[[Paper](https://www.isca-archive.org/interspeech_2025/wu25k_interspeech.pdf), [Code](https://github.com/g-milis/AlignedIS)\]*
 
 **Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
