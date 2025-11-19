@@ -15,6 +15,12 @@ I’m always happy to connect! Feel free to email me if you’re interested in m
 
 Preprints
 ======
+$^*$denotes equal contribution.
+
+**ImAgent: A Unified Multimodal Agent Framework for Test-Time Scalable Image Generation.**<br>
+Kaishen Wang\*, **Ruibo Chen\***, Tong Zheng, Heng Huang<br>
+*arXiv, 2025 \[[Paper](https://arxiv.org/abs/2511.11483)\]*
+
 **Improving Text-to-Image Generation with Input-Side Inference-Time Scaling**<br>
 **Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
@@ -33,6 +39,8 @@ Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pan
 
 Publications
 ======
+$^*$denotes equal contribution.
+
 **Robust Distortion-Free Watermark for Autoregressive Audio Generation Models**<br>
 Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
 *NeurIPS, 2025 \[[Paper](https://neurips.cc/virtual/2025/poster/117426), [Code](https://github.com/g-milis/AlignedIS)\]*
