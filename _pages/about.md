@@ -25,10 +25,6 @@ Kaishen Wang\*, **Ruibo Chen\***, Tong Zheng, Heng Huang<br>
 **Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
 
-**An Ensemble Framework for Unbiased Language Model Watermarking**<br>
-**Ruibo Chen\***, Yihan Wu\*, Georgios Milis, Heng Huang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24043)\]*
-
 **Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
 Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.02962)\]*
@@ -37,9 +33,13 @@ Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pan
 **Ruibo Chen**, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24171)\]*
 
-Publications
+Selected Publications
 ======
 $^*$denotes equal contribution.
+
+**An Ensemble Framework for Unbiased Language Model Watermarking**<br>
+**Ruibo Chen\***, Yihan Wu\*, Georgios Milis, Heng Huang<br>
+*ICLR, 2026 \[[Paper](https://arxiv.org/pdf/2509.24043)\]*
 
 **Robust Distortion-Free Watermark for Autoregressive Audio Generation Models**<br>
 Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
@@ -65,25 +65,25 @@ Yihan Wu\*, **Ruibo Chen\***, Georgios Milis\*, Junfeng Guo, Heng Huang<br>
 **Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
 *ACL Findings, 2024 \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter), [Models&Datasets](https://huggingface.co/RayRuiboChen)\]*
 
-**ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
+<!-- **ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
 Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang<br>
-*NeurIPS, 2024 \[[Paper](https://neurips.cc/virtual/2024/poster/96006), [Code](https://github.com/JunfengGo/ZeroMark)\]*
+*NeurIPS, 2024 \[[Paper](https://neurips.cc/virtual/2024/poster/96006), [Code](https://github.com/JunfengGo/ZeroMark)\]* -->
 
-**Enhancing Biosecurity with Watermarked Protein Design**<br>
+<!-- **Enhancing Biosecurity with Watermarked Protein Design**<br>
 Yanshuo Chen\*, Zhengmian Hu\*, Yihan Wu, **Ruibo Chen**, Yongrui Jin, Marcus Zhan, Wei Chen, Heng Huang<br>
-*Bioinformatics, 2025 \[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract), [Code](https://github.com/poseidonchan/ProteinWatermark)\]*
+*Bioinformatics, 2025 \[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract), [Code](https://github.com/poseidonchan/ProteinWatermark)\]* -->
 
-**Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
+<!-- **Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
 Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang<br>
-*ECCV, 2024 \[[Paper](https://arxiv.org/pdf/2403.09857), [Code](https://github.com/DawnLIU35/FSCIL-ASP)\]*
+*ECCV, 2024 \[[Paper](https://arxiv.org/pdf/2403.09857), [Code](https://github.com/DawnLIU35/FSCIL-ASP)\]* -->
 
-**Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**<br>
+<!-- **Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**<br>
 **Ruibo Chen**, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun<br>
-*KDD Workshop on Machine Learning in Finance, 2023 \[[Paper](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE)\]*
+*KDD Workshop on Machine Learning in Finance, 2023 \[[Paper](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE)\]* -->
 
-**Stock Trading Volume Prediction with Dual-Process Meta-Learning**<br>
+<!-- **Stock Trading Volume Prediction with Dual-Process Meta-Learning**<br>
 **Ruibo Chen**, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun<br>
-*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* (<span style="color:red">Oral</span>) *\[[Paper](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]*
+*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* (<span style="color:red">Oral</span>) *\[[Paper](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]* -->
 
 
 Experiences
