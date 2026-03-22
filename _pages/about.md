@@ -17,21 +17,22 @@ Preprints
 ======
 $^*$denotes equal contribution.
 
+**POET: Preference Optimization for Enhanced Text-to-Image Generation**<br>
+**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
+*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
+
 **ImAgent: A Unified Multimodal Agent Framework for Test-Time Scalable Image Generation.**<br>
 Kaishen Wang\*, **Ruibo Chen\***, Tong Zheng, Heng Huang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/abs/2511.11483)\]*
 
-**Improving Text-to-Image Generation with Input-Side Inference-Time Scaling**<br>
-**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
-
+<!-- 
 **Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
 Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang<br>
 *arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.02962)\]*
 
 **Model Correlation Detection via Random Selection Probing**<br>
 **Ruibo Chen**, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24171)\]*
+*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24171)\]* -->
 
 Selected Publications
 ======
@@ -88,7 +89,7 @@ Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, He
 
 Experiences
 ======
-Research Scientist Intern at TikTok, Feb. 2025 - Dec. 2025
+Research Scientist Intern at TikTok, 2025
 
 
 
