@@ -13,17 +13,15 @@ I am a third-year Ph.D. student in Computer Science at the University of Marylan
 I’m always happy to connect! Feel free to email me if you’re interested in my research or possible collaborations!
 
 
-Preprints
+<!-- Preprints
 ======
-$^*$denotes equal contribution.
+$^*$denotes equal contribution. -->
 
-**POET: Preference Optimization for Enhanced Text-to-Image Generation**<br>
-**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
 
-**ImAgent: A Unified Multimodal Agent Framework for Test-Time Scalable Image Generation.**<br>
+
+<!-- **ImAgent: A Unified Multimodal Agent Framework for Test-Time Scalable Image Generation.**<br>
 Kaishen Wang\*, **Ruibo Chen\***, Tong Zheng, Heng Huang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/abs/2511.11483)\]*
+*arXiv, 2025 \[[Paper](https://arxiv.org/abs/2511.11483)\]* -->
 
 <!-- 
 **Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
@@ -38,8 +36,19 @@ Selected Publications
 ======
 $^*$denotes equal contribution.
 
+
+
+
+**POET: Preference Optimization for Enhanced Text-to-Image Generation**<br>
+**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
+*ECCV, 2026 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
+
+**More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles**<br>
+**Ruibo Chen**, Yihan Wu, Xuehao Cui, Jingqi Zhang, Heng Huang<br>
+*EMNLP Main Conference, 2026 \[[Paper](https://arxiv.org/pdf/2602.11793)\]*
+
 **An Ensemble Framework for Unbiased Language Model Watermarking**<br>
-**Ruibo Chen\***, Yihan Wu\*, Georgios Milis, Heng Huang<br>
+Yihan Wu\*, **Ruibo Chen\***, Georgios Milis, Heng Huang<br>
 *ICLR, 2026 \[[Paper](https://arxiv.org/pdf/2509.24043)\]*
 
 **Robust Distortion-Free Watermark for Autoregressive Audio Generation Models**<br>
@@ -48,7 +57,7 @@ Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
 
 **Improved Unbiased Watermark for Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*ACL, 2025 \[[Paper](https://arxiv.org/abs/2502.11268), [Code](https://github.com/RayRuiboChen/MCMark)\]*
+*ACL Main Conference, 2025 \[[Paper](https://arxiv.org/abs/2502.11268), [Code](https://github.com/RayRuiboChen/MCMark)\]*
 
 **De-mark: Watermark Removal in Large Language Models**<br>
 **Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
