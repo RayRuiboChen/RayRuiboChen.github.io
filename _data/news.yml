@@ -1,0 +1,19 @@
+# Homepage news feed. Newest first.
+# `date` is free text — swap in exact months when you have them (e.g. "Jul 2026").
+- date: "2026"
+  text: '**MC<sup>2</sup>Mark: Distortion-Free Multi-Bit Watermarking for Long Messages** accepted to **NeurIPS 2026**.'
+
+- date: "2026"
+  text: '**POET: Preference Optimization for Enhanced Text-to-Image Generation** accepted to **ECCV 2026**.'
+
+- date: "2026"
+  text: '**More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles** accepted to **EMNLP 2026** (Main Conference).'
+
+- date: "2026"
+  text: 'Research Scientist Intern at **TikTok** (Summer 2026).'
+
+- date: "2026"
+  text: '**An Ensemble Framework for Unbiased Language Model Watermarking** accepted to **ICLR 2026**.'
+
+- date: "2025"
+  text: 'Three papers accepted to **NeurIPS 2025**, **ACL 2025**, and **ICML 2025**.'

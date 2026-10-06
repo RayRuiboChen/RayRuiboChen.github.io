@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Ruibo Chen"
 title_separator          : "-"
 name                     : &name "Ruibo Chen"
-description              : &description "personal description"
+description              : &description "Ruibo Chen is a Ph.D. student in Computer Science at the University of Maryland, College Park, working on large language models, vision-language models, and watermarking."
 url                      : https://rayruibochen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RayRuiboChen/RayRuiboChen.github.io"
@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/rayprofile.jpg"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=oXfEZL0AAAAJ&hl=en"
-  email            :
+  email            : "rbchen@umd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

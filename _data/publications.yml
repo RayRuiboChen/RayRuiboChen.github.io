@@ -1,0 +1,212 @@
+# Single source of truth for publications.
+# Rendered on the homepage (selected: true only) and on /publications (all).
+#   venue      : short badge text, e.g. "ECCV" / "arXiv"
+#   year       : badge year
+#   venue_full : the italic line under the authors
+#   note       : optional highlight, e.g. "Oral"
+#   selected   : show on the homepage
+#   links      : ordered list of {name, url}
+
+- title: "MC<sup>2</sup>Mark: Distortion-Free Multi-Bit Watermarking for Long Messages"
+  authors: "Xuehao Cui*, Ruibo Chen*, Yihan Wu, Heng Huang"
+  venue: "NeurIPS"
+  year: "2026"
+  venue_full: "Conference on Neural Information Processing Systems (NeurIPS), 2026"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2602.14030"
+
+- title: "POET: Preference Optimization for Enhanced Text-to-Image Generation"
+  authors: "Ruibo Chen*, Jiacheng Pan*, Heng Huang, Zhenheng Yang"
+  venue: "ECCV"
+  year: "2026"
+  venue_full: "European Conference on Computer Vision (ECCV), 2026"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2510.12041"
+
+- title: "More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles"
+  authors: "Ruibo Chen, Yihan Wu, Xuehao Cui, Jingqi Zhang, Heng Huang"
+  venue: "EMNLP"
+  year: "2026"
+  venue_full: "EMNLP Main Conference, 2026"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2602.11793"
+
+- title: "An Ensemble Framework for Unbiased Language Model Watermarking"
+  authors: "Yihan Wu*, Ruibo Chen*, Georgios Milis, Heng Huang"
+  venue: "ICLR"
+  year: "2026"
+  venue_full: "International Conference on Learning Representations (ICLR), 2026"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2509.24043"
+
+- title: "ImAgent: A Unified Multimodal Agent Framework for Test-Time Scalable Image Generation"
+  authors: "Kaishen Wang*, Ruibo Chen*, Tong Zheng, Heng Huang"
+  venue: "arXiv"
+  year: "2025"
+  venue_full: "arXiv preprint, 2025"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2511.11483"
+
+- title: "Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking"
+  authors: "Jingqi Zhang*, Ruibo Chen*, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang"
+  venue: "arXiv"
+  year: "2025"
+  venue_full: "arXiv preprint, 2025"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2510.02962"
+
+- title: "Model Correlation Detection via Random Selection Probing"
+  authors: "Ruibo Chen, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang"
+  venue: "arXiv"
+  year: "2025"
+  venue_full: "arXiv preprint, 2025"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2509.24171"
+
+- title: "Robust Distortion-Free Watermark for Autoregressive Audio Generation Models"
+  authors: "Yihan Wu*, Georgios Milis*, Ruibo Chen*, Heng Huang"
+  venue: "NeurIPS"
+  year: "2025"
+  venue_full: "Conference on Neural Information Processing Systems (NeurIPS), 2025"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://neurips.cc/virtual/2025/poster/117426"
+    - name: "Code"
+      url: "https://github.com/g-milis/AlignedIS"
+
+- title: "Improved Unbiased Watermark for Large Language Models"
+  authors: "Ruibo Chen*, Yihan Wu*, Junfeng Guo, Heng Huang"
+  venue: "ACL"
+  year: "2025"
+  venue_full: "ACL Main Conference, 2025"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2502.11268"
+    - name: "Code"
+      url: "https://github.com/RayRuiboChen/MCMark"
+
+- title: "De-mark: Watermark Removal in Large Language Models"
+  authors: "Ruibo Chen*, Yihan Wu*, Junfeng Guo, Heng Huang"
+  venue: "ICML"
+  year: "2025"
+  venue_full: "International Conference on Machine Learning (ICML), 2025"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2410.13808"
+    - name: "Code"
+      url: "https://github.com/RayRuiboChen/De-mark"
+
+- title: "A Watermark for Order-Agnostic Language Models"
+  authors: "Ruibo Chen*, Yihan Wu*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang"
+  venue: "ICLR"
+  year: "2025"
+  venue_full: "International Conference on Learning Representations (ICLR), 2025"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2410.13805"
+
+- title: "A Watermark for Auto-Regressive Speech Generation Models"
+  authors: "Yihan Wu*, Ruibo Chen*, Georgios Milis*, Junfeng Guo, Heng Huang"
+  venue: "Interspeech"
+  year: "2025"
+  venue_full: "Interspeech, 2025"
+  note: "Oral"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://www.isca-archive.org/interspeech_2025/wu25k_interspeech.pdf"
+    - name: "Code"
+      url: "https://github.com/g-milis/AlignedIS"
+
+- title: "Enhancing Biosecurity with Watermarked Protein Design"
+  authors: "Yanshuo Chen*, Zhengmian Hu*, Yihan Wu, Ruibo Chen, Yongrui Jin, Marcus Zhan, Wei Chen, Heng Huang"
+  venue: "Bioinform."
+  year: "2025"
+  venue_full: "Bioinformatics, 2025"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract"
+    - name: "Code"
+      url: "https://github.com/poseidonchan/ProteinWatermark"
+
+- title: "ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks"
+  authors: "Junfeng Guo*, Yiming Li*, Ruibo Chen, Yihan Wu, Chenxi Liu, Heng Huang"
+  venue: "NeurIPS"
+  year: "2024"
+  venue_full: "Conference on Neural Information Processing Systems (NeurIPS), 2024"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://neurips.cc/virtual/2024/poster/96006"
+    - name: "Code"
+      url: "https://github.com/JunfengGo/ZeroMark"
+
+- title: "Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt"
+  authors: "Chenxi Liu, Zhenyi Wang, Tianyi Xiong, Ruibo Chen, Yihan Wu, Junfeng Guo, Heng Huang"
+  venue: "ECCV"
+  year: "2024"
+  venue_full: "European Conference on Computer Vision (ECCV), 2024"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2403.09857"
+    - name: "Code"
+      url: "https://github.com/DawnLIU35/FSCIL-ASP"
+
+- title: "Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection"
+  authors: "Ruibo Chen, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang"
+  venue: "ACL"
+  year: "2024"
+  venue_full: "ACL Findings, 2024"
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2402.12501"
+    - name: "Code"
+      url: "https://github.com/RayRuiboChen/Self-Filter"
+    - name: "Models & Data"
+      url: "https://huggingface.co/RayRuiboChen"
+
+- title: "Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction"
+  authors: "Ruibo Chen, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun"
+  venue: "KDD-W"
+  year: "2023"
+  venue_full: "KDD Workshop on Machine Learning in Finance, 2023"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2309.05608"
+    - name: "Code"
+      url: "https://github.com/RayRuiboChen/ProMUSE"
+
+- title: "Stock Trading Volume Prediction with Dual-Process Meta-Learning"
+  authors: "Ruibo Chen, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun"
+  venue: "ECML"
+  year: "2023"
+  venue_full: "European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023"
+  note: "Oral"
+  selected: false
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2211.01762"
+    - name: "Code"
+      url: "https://github.com/RayRuiboChen/DPML"

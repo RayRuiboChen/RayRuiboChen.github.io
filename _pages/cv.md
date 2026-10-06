@@ -1,59 +1,64 @@
 ---
-layout: archive
-title: "CV"
+layout: academic
 permalink: /cv/
-author_profile: true
+title: "Curriculum Vitae"
+description: "Curriculum vitae of Ruibo Chen."
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<section class="section" style="border:0;padding-top:.5rem">
+  <h2 class="section__title">Education</h2>
+  <ul class="timeline">
+    <li>
+      <span class="timeline__when">2023 – present</span>
+      <span class="timeline__what">
+        <strong>Ph.D., Computer Science</strong>
+        <span class="where">University of Maryland, College Park &middot; Advisor: Prof. Heng Huang</span>
+      </span>
+    </li>
+    <li>
+      <span class="timeline__when">2019 – 2023</span>
+      <span class="timeline__what">
+        <strong>B.S., Intelligence Science and Technology</strong>
+        <span class="where">School of EECS, Peking University</span>
+      </span>
+    </li>
+  </ul>
+</section>
 
-Education
-======
-* B.S. in Intelligence Science and Technology, Peking University, 2019-2023
-* Ph.D. in Computer Science, University of Maryland, College Park, 2023-Present
-<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
+<section class="section">
+  <h2 class="section__title">Experience</h2>
+  <ul class="timeline">
+    <li>
+      <span class="timeline__when">2026</span>
+      <span class="timeline__what">
+        <strong>Research Scientist Intern</strong>
+        <span class="where">TikTok</span>
+      </span>
+    </li>
+    <li>
+      <span class="timeline__when">2025</span>
+      <span class="timeline__what">
+        <strong>Research Scientist Intern</strong>
+        <span class="where">TikTok</span>
+      </span>
+    </li>
+  </ul>
+</section>
 
-<!-- Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+<section class="section">
+  <h2 class="section__title">Honors &amp; Awards</h2>
+  <ul class="awards">
+    <li>Dean's Fellowship, University of Maryland, College Park <span class="year">2023–2025</span></li>
+    <li>Outstanding Graduates of Beijing <span class="year">2023</span></li>
+    <li>Outstanding Graduates of Peking University <span class="year">2023</span></li>
+    <li>National Scholarship, Ministry of Education, China <span class="year">2022</span></li>
+  </ul>
+</section>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+<section class="section">
+  <h2 class="section__title">Publications</h2>
+  <p class="note">* denotes equal contribution.</p>
+  {% include pub-list.html %}
+</section>

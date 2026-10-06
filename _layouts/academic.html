@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} &middot; {{ site.author.name }}{% else %}{{ site.author.name }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | default: site.author.name }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/' | append: site.author.avatar | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/images/' | append: site.author.avatar | relative_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="topbar__brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+    <nav>
+      {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+{% if page.profile %}
+<div class="wrap">
+  <div class="profile">
+    <img class="profile__photo" src="{{ '/images/' | append: site.author.avatar | relative_url }}"
+         alt="Portrait of {{ site.author.name }}">
+    <div>
+      <h1 class="profile__name">{{ site.author.name }}</h1>
+      <p class="profile__role">
+        <span>Ph.D. Student in Computer Science</span>
+        <span class="affil">University of Maryland, College Park</span>
+      </p>
+      <div class="linkbar">
+        {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6l9 6 9-6"/></svg>
+          Email</a>
+        {% endif %}
+        {% if site.author.googlescholar %}
+        <a href="{{ site.author.googlescholar }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4L1.5 9.5 12 15l10.5-5.5L12 4z"/><path d="M5.5 11.6V16c0 1.7 2.9 3.2 6.5 3.2s6.5-1.5 6.5-3.2v-4.4"/></svg>
+          Google Scholar</a>
+        {% endif %}
+        {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C16.9 5.2 17.9 5.5 17.9 5.5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .5z"/></svg>
+          GitHub</a>
+        {% endif %}
+        {% if site.author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05 4.02 0 4.76 2.5 4.76 5.76V21h-4v-5.6c0-1.34-.03-3.06-1.9-3.06-1.9 0-2.2 1.46-2.2 2.97V21h-4z"/></svg>
+          LinkedIn</a>
+        {% endif %}
+        <a href="{{ '/cv/' | relative_url }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg>
+          CV</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="wrap">
+  <div class="section" style="border:0">
+    <h1 class="profile__name" style="font-size:1.9rem;margin-top:1.6rem">{{ page.title }}</h1>
+  </div>
+</div>
+{% endif %}
+
+<main class="wrap">
+  {{ content }}
+</main>
+
+<footer class="wrap site-footer">
+  <span>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
+  <span>Built with <a href="https://jekyllrb.com">Jekyll</a> &middot; hosted on <a href="https://pages.github.com">GitHub Pages</a></span>
+</footer>
+
+</body>
+</html>

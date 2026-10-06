@@ -1,16 +1,14 @@
 ---
-layout: archive
-title: "Publications"
+layout: academic
 permalink: /publications/
-author_profile: true
+title: "Publications"
+description: "Full list of publications by Ruibo Chen."
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="section" style="border:0;padding-top:.5rem">
+  <p class="note">
+    * denotes equal contribution. Also available on
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  </p>
+  {% include pub-list.html %}
+</section>

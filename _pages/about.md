@@ -1,111 +1,109 @@
 ---
+layout: academic
 permalink: /
-title: "Ruibo Chen (陈睿博)"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+title: "Ruibo Chen"
+description: "Ruibo Chen is a Ph.D. student in Computer Science at the University of Maryland, College Park, working on large language models, vision-language models, and watermarking."
+profile: true
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a third-year Ph.D. student in Computer Science at the University of Maryland, College Park, working with Prof. [Heng Huang](https://www.cs.umd.edu/~heng/). Previously, I obtained my B.S. degree at Peking University in Intelligence Science and Technology, School of Electronics Engineering and Computer Science. I was fortunate to work with Prof. [Xu Sun](https://xusun26.github.io/) during my undergraduate study. I am interested in building stronger large language models and vision-language models, alongside efforts to enhance their reliability and ensure safe use.
+<section class="section">
+  <h2 class="section__title">About</h2>
+  <div class="prose">
+    <p>
+      I am a third-year Ph.D. student in Computer Science at the
+      <strong>University of Maryland, College Park</strong>, advised by
+      <a href="https://www.cs.umd.edu/~heng/">Heng Huang</a>,
+      Brendan Iribe Endowed Professor of Computer Science.
+      Previously I received my B.S. in Intelligence Science and Technology from the
+      School of Electronics Engineering and Computer Science at <strong>Peking University</strong>,
+      where I was fortunate to work with Prof. <a href="https://xusun26.github.io/">Xu Sun</a>.
+    </p>
+    <p>
+      My research is about building <strong>stronger large language models and vision-language
+      models</strong>, alongside efforts to enhance their reliability and ensure their safe use.
+      Recently I have focused on generative model watermarking — for language, speech, audio,
+      and proteins — as well as data selection and preference optimization for multimodal models.
+    </p>
+    <p>
+      I am always happy to connect. Feel free to email me at
+      <a href="mailto:rbchen@umd.edu">rbchen [at] umd [dot] edu</a>
+      if you are interested in my research or possible collaborations.
+    </p>
+  </div>
+</section>
 
-I’m always happy to connect! Feel free to email me if you’re interested in my research or possible collaborations!
+<section class="section">
+  <h2 class="section__title">News</h2>
+  <ul class="news">
+    {% for item in site.data.news %}
+    <li>
+      <span class="news__date">{{ item.date }}</span>
+      <span class="news__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
+<section class="section">
+  <h2 class="section__title">Selected Publications</h2>
+  <p class="note">* denotes equal contribution.</p>
+  {% include pub-list.html selected_only="true" %}
+  <p class="more-link">
+    <a href="{{ '/publications/' | relative_url }}">See all publications &rarr;</a>
+    &nbsp;·&nbsp;
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+  </p>
+</section>
 
-<!-- Preprints
-======
-$^*$denotes equal contribution. -->
+<section class="section">
+  <h2 class="section__title">Experience</h2>
+  <ul class="timeline">
+    <li>
+      <span class="timeline__when">2026</span>
+      <span class="timeline__what">
+        <strong>Research Scientist Intern</strong>
+        <span class="where">TikTok</span>
+      </span>
+    </li>
+    <li>
+      <span class="timeline__when">2025</span>
+      <span class="timeline__what">
+        <strong>Research Scientist Intern</strong>
+        <span class="where">TikTok</span>
+      </span>
+    </li>
+  </ul>
+</section>
 
+<section class="section">
+  <h2 class="section__title">Education</h2>
+  <ul class="timeline">
+    <li>
+      <span class="timeline__when">2023 – present</span>
+      <span class="timeline__what">
+        <strong>Ph.D., Computer Science</strong>
+        <span class="where">University of Maryland, College Park</span>
+      </span>
+    </li>
+    <li>
+      <span class="timeline__when">2019 – 2023</span>
+      <span class="timeline__what">
+        <strong>B.S., Intelligence Science and Technology</strong>
+        <span class="where">Peking University</span>
+      </span>
+    </li>
+  </ul>
+</section>
 
-
-<!-- **ImAgent: A Unified Multimodal Agent Framework for Test-Time Scalable Image Generation.**<br>
-Kaishen Wang\*, **Ruibo Chen\***, Tong Zheng, Heng Huang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/abs/2511.11483)\]* -->
-
-<!-- 
-**Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking**<br>
-Jingqi Zhang\*, **Ruibo Chen\***, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2510.02962)\]*
-
-**Model Correlation Detection via Random Selection Probing**<br>
-**Ruibo Chen**, Sheng Zhang, Yihan Wu, Tong Zheng, Peihua Mai, Heng Huang<br>
-*arXiv, 2025 \[[Paper](https://arxiv.org/pdf/2509.24171)\]* -->
-
-Selected Publications
-======
-$^*$denotes equal contribution.
-
-
-
-
-**POET: Preference Optimization for Enhanced Text-to-Image Generation**<br>
-**Ruibo Chen\***, Jiacheng Pan\*, Heng Huang, Zhenheng Yang<br>
-*ECCV, 2026 \[[Paper](https://arxiv.org/pdf/2510.12041)\]*
-
-**More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles**<br>
-**Ruibo Chen**, Yihan Wu, Xuehao Cui, Jingqi Zhang, Heng Huang<br>
-*EMNLP Main Conference, 2026 \[[Paper](https://arxiv.org/pdf/2602.11793)\]*
-
-**An Ensemble Framework for Unbiased Language Model Watermarking**<br>
-Yihan Wu\*, **Ruibo Chen\***, Georgios Milis, Heng Huang<br>
-*ICLR, 2026 \[[Paper](https://arxiv.org/pdf/2509.24043)\]*
-
-**Robust Distortion-Free Watermark for Autoregressive Audio Generation Models**<br>
-Yihan Wu\*, Georgios Milis\*, **Ruibo Chen\***, Heng Huang<br>
-*NeurIPS, 2025 \[[Paper](https://neurips.cc/virtual/2025/poster/117426), [Code](https://github.com/g-milis/AlignedIS)\]*
-
-**Improved Unbiased Watermark for Large Language Models**<br>
-**Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*ACL Main Conference, 2025 \[[Paper](https://arxiv.org/abs/2502.11268), [Code](https://github.com/RayRuiboChen/MCMark)\]*
-
-**De-mark: Watermark Removal in Large Language Models**<br>
-**Ruibo Chen\***, Yihan Wu\*, Junfeng Guo, Heng Huang<br>
-*ICML, 2025 \[[Paper](https://arxiv.org/abs/2410.13808), [Code](https://github.com/RayRuiboChen/De-mark)\]*
-
-**A Watermark for Order-Agnostic Language Models**<br>
-**Ruibo Chen\***, Yihan Wu\*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*ICLR, 2025 \[[Paper](https://arxiv.org/abs/2410.13805), [Code](https://arxiv.org/abs/2410.13805)\]*
-
-**A Watermark for Auto-Regressive Speech Generation Models**<br>
-Yihan Wu\*, **Ruibo Chen\***, Georgios Milis\*, Junfeng Guo, Heng Huang<br>
-*Interspeech, 2025* (<span style="color:red">Oral</span>). *\[[Paper](https://www.isca-archive.org/interspeech_2025/wu25k_interspeech.pdf), [Code](https://github.com/g-milis/AlignedIS)\]*
-
-**Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection**<br>
-**Ruibo Chen**, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang<br>
-*ACL Findings, 2024 \[[Paper](https://arxiv.org/abs/2402.12501), [Code](https://github.com/RayRuiboChen/Self-Filter), [Models&Datasets](https://huggingface.co/RayRuiboChen)\]*
-
-<!-- **ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks**<br>
-Junfeng Guo\*, Yiming Li\*, **Ruibo Chen**, Yihan Wu, Chenxi Liu, Heng Huang<br>
-*NeurIPS, 2024 \[[Paper](https://neurips.cc/virtual/2024/poster/96006), [Code](https://github.com/JunfengGo/ZeroMark)\]* -->
-
-<!-- **Enhancing Biosecurity with Watermarked Protein Design**<br>
-Yanshuo Chen\*, Zhengmian Hu\*, Yihan Wu, **Ruibo Chen**, Yongrui Jin, Marcus Zhan, Wei Chen, Heng Huang<br>
-*Bioinformatics, 2025 \[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract), [Code](https://github.com/poseidonchan/ProteinWatermark)\]* -->
-
-<!-- **Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt**<br>
-Chenxi Liu, Zhenyi Wang, Tianyi Xiong, **Ruibo Chen**, Yihan Wu, Junfeng Guo, Heng Huang<br>
-*ECCV, 2024 \[[Paper](https://arxiv.org/pdf/2403.09857), [Code](https://github.com/DawnLIU35/FSCIL-ASP)\]* -->
-
-<!-- **Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction**<br>
-**Ruibo Chen**, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun<br>
-*KDD Workshop on Machine Learning in Finance, 2023 \[[Paper](https://arxiv.org/abs/2309.05608), [Code](https://github.com/RayRuiboChen/ProMUSE)\]* -->
-
-<!-- **Stock Trading Volume Prediction with Dual-Process Meta-Learning**<br>
-**Ruibo Chen**, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun<br>
-*Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), 2023* (<span style="color:red">Oral</span>) *\[[Paper](https://arxiv.org/abs/2211.01762), [Code](https://github.com/RayRuiboChen/DPML)\]* -->
-
-
-Experiences
-======
-Research Scientist Intern at TikTok, 2025
-
-
-
-
-Selected Honors and Awards
-======
-Dean's Fellowship, University of Maryland, College Park, 2023-2025<br>
-Outstanding Graduates of Beijing, 2023<br>
-Outstanding Graduates of Peking University, 2023<br>
-National Scholarship, Ministry of Education, China 2022<br>
+<section class="section">
+  <h2 class="section__title">Honors &amp; Awards</h2>
+  <ul class="awards">
+    <li>Dean's Fellowship, University of Maryland, College Park <span class="year">2023–2025</span></li>
+    <li>Outstanding Graduates of Beijing <span class="year">2023</span></li>
+    <li>Outstanding Graduates of Peking University <span class="year">2023</span></li>
+    <li>National Scholarship, Ministry of Education, China <span class="year">2022</span></li>
+  </ul>
+</section>

@@ -1,0 +1,31 @@
+{% comment %}
+  Renders publications from _data/publications.yml.
+  Params (set before the include):
+    include.selected_only : "true" to show only entries with selected: true
+{% endcomment %}
+<ol class="pubs">
+{% for pub in site.data.publications %}
+  {% if include.selected_only == "true" and pub.selected != true %}{% continue %}{% endif %}
+  {% assign primary = pub.links | first %}
+  <li class="pub">
+    <div class="pub__badge">
+      <span class="pub__venue">{{ pub.venue }}</span>
+      <span class="pub__year">{{ pub.year }}</span>
+    </div>
+    <div class="pub__body">
+      <h3 class="pub__title">
+        {% if primary %}<a href="{{ primary.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+      </h3>
+      <p class="pub__authors">{{ pub.authors | replace: 'Ruibo Chen', '<strong>Ruibo Chen</strong>' }}</p>
+      <p class="pub__meta">
+        {{ pub.venue_full }}{% if pub.note %} &middot; <span class="pub__note">{{ pub.note }}</span>{% endif %}
+      </p>
+      {% if pub.links and pub.links.size > 0 %}
+      <div class="pub__links">
+        {% for link in pub.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ol>
