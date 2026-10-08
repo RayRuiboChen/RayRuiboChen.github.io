@@ -10,5 +10,11 @@ description: "Full list of publications by Ruibo Chen."
     * denotes equal contribution. Also available on
     <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
   </p>
-  {% include pub-list.html %}
+  <h2 class="section__title">Peer-Reviewed Publications</h2>
+  {% include pub-list.html kind="published" %}
+</section>
+
+<section class="section">
+  <h2 class="section__title">Preprints</h2>
+  {% include pub-list.html kind="preprint" %}
 </section>

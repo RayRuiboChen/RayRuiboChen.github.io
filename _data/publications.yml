@@ -5,7 +5,37 @@
 #   venue_full : the italic line under the authors
 #   note       : optional highlight, e.g. "Oral"
 #   selected   : show on the homepage
+#   preprint   : render under the Preprints heading instead of Publications
 #   links      : ordered list of {name, url}
+
+- title: "OriginMark: Mitigating Attacks in Distortion-Free Watermarks"
+  authors: "Ruibo Chen, Donghang Lu, Heng Huang, Jian Du"
+  venue: "Preprint"
+  year: "2026"
+  venue_full: "Under review, 2026"
+  preprint: true
+  selected: true
+  links: []
+
+- title: "TTMark: Pairwise Distortion-Free Watermarking Beyond Single-Token Entropy"
+  authors: "Ruibo Chen, Zhengmian Hu, Donghang Lu, Xuehao Cui, Georgios Milis, Yihan Wu, Jian Du, Heng Huang"
+  venue: "Preprint"
+  year: "2026"
+  venue_full: "Under review, 2026"
+  preprint: true
+  selected: true
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/abs/2609.36372"
+
+- title: "Scale as a Modality: Multi-Scale Pixel-Space Diffusion Transformers"
+  authors: "Ruibo Chen, Kaishen Wang, Tianyi Xiong, Chenxi Liu, Yanshuo Chen, Heng Huang, Jian Du"
+  venue: "Preprint"
+  year: "2026"
+  venue_full: "Under review, 2026"
+  preprint: true
+  selected: true
+  links: []
 
 - title: "MC<sup>2</sup>Mark: Distortion-Free Multi-Bit Watermarking for Long Messages"
   authors: "Xuehao Cui*, Ruibo Chen*, Yihan Wu, Heng Huang"
@@ -52,6 +82,7 @@
   venue: "arXiv"
   year: "2025"
   venue_full: "arXiv preprint, 2025"
+  preprint: true
   selected: true
   links:
     - name: "Paper"
@@ -62,6 +93,7 @@
   venue: "arXiv"
   year: "2025"
   venue_full: "arXiv preprint, 2025"
+  preprint: true
   selected: false
   links:
     - name: "Paper"
@@ -72,6 +104,7 @@
   venue: "arXiv"
   year: "2025"
   venue_full: "arXiv preprint, 2025"
+  preprint: true
   selected: false
   links:
     - name: "Paper"
@@ -86,8 +119,6 @@
   links:
     - name: "Paper"
       url: "https://neurips.cc/virtual/2025/poster/117426"
-    - name: "Code"
-      url: "https://github.com/g-milis/AlignedIS"
 
 - title: "Improved Unbiased Watermark for Large Language Models"
   authors: "Ruibo Chen*, Yihan Wu*, Junfeng Guo, Heng Huang"
@@ -98,8 +129,6 @@
   links:
     - name: "Paper"
       url: "https://arxiv.org/abs/2502.11268"
-    - name: "Code"
-      url: "https://github.com/RayRuiboChen/MCMark"
 
 - title: "De-mark: Watermark Removal in Large Language Models"
   authors: "Ruibo Chen*, Yihan Wu*, Junfeng Guo, Heng Huang"
@@ -110,8 +139,6 @@
   links:
     - name: "Paper"
       url: "https://arxiv.org/abs/2410.13808"
-    - name: "Code"
-      url: "https://github.com/RayRuiboChen/De-mark"
 
 - title: "A Watermark for Order-Agnostic Language Models"
   authors: "Ruibo Chen*, Yihan Wu*, Yanshuo Chen, Chenxi Liu, Junfeng Guo, Heng Huang"
@@ -133,8 +160,6 @@
   links:
     - name: "Paper"
       url: "https://www.isca-archive.org/interspeech_2025/wu25k_interspeech.pdf"
-    - name: "Code"
-      url: "https://github.com/g-milis/AlignedIS"
 
 - title: "Enhancing Biosecurity with Watermarked Protein Design"
   authors: "Yanshuo Chen*, Zhengmian Hu*, Yihan Wu, Ruibo Chen, Yongrui Jin, Marcus Zhan, Wei Chen, Heng Huang"
@@ -145,8 +170,6 @@
   links:
     - name: "Paper"
       url: "https://www.biorxiv.org/content/10.1101/2024.05.02.591928v1.abstract"
-    - name: "Code"
-      url: "https://github.com/poseidonchan/ProteinWatermark"
 
 - title: "ZeroMark: Towards Dataset Ownership Verification without Disclosing Dataset-specified Watermarks"
   authors: "Junfeng Guo*, Yiming Li*, Ruibo Chen, Yihan Wu, Chenxi Liu, Heng Huang"
@@ -157,8 +180,6 @@
   links:
     - name: "Paper"
       url: "https://neurips.cc/virtual/2024/poster/96006"
-    - name: "Code"
-      url: "https://github.com/JunfengGo/ZeroMark"
 
 - title: "Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt"
   authors: "Chenxi Liu, Zhenyi Wang, Tianyi Xiong, Ruibo Chen, Yihan Wu, Junfeng Guo, Heng Huang"
@@ -169,8 +190,6 @@
   links:
     - name: "Paper"
       url: "https://arxiv.org/pdf/2403.09857"
-    - name: "Code"
-      url: "https://github.com/DawnLIU35/FSCIL-ASP"
 
 - title: "Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection"
   authors: "Ruibo Chen, Yihan Wu, Lichang Chen, Guodong Liu, Qi He, Tianyi Xiong, Chenxi Liu, Junfeng Guo, Heng Huang"
@@ -181,10 +200,6 @@
   links:
     - name: "Paper"
       url: "https://arxiv.org/abs/2402.12501"
-    - name: "Code"
-      url: "https://github.com/RayRuiboChen/Self-Filter"
-    - name: "Models & Data"
-      url: "https://huggingface.co/RayRuiboChen"
 
 - title: "Incorporating Pre-trained Model Prompting in Multimodal Stock Volume Movement Prediction"
   authors: "Ruibo Chen, Zhiyuan Zhang, Yi Liu, Ruihan Bao, Keiki Harimoto, Xu Sun"
@@ -195,8 +210,6 @@
   links:
     - name: "Paper"
       url: "https://arxiv.org/abs/2309.05608"
-    - name: "Code"
-      url: "https://github.com/RayRuiboChen/ProMUSE"
 
 - title: "Stock Trading Volume Prediction with Dual-Process Meta-Learning"
   authors: "Ruibo Chen, Wei Li, Zhiyuan Zhang, Ruihan Bao, Keiko Harimoto, Xu Sun"
@@ -208,5 +221,3 @@
   links:
     - name: "Paper"
       url: "https://arxiv.org/abs/2211.01762"
-    - name: "Code"
-      url: "https://github.com/RayRuiboChen/DPML"

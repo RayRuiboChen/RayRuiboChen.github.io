@@ -13,7 +13,7 @@ redirect_from:
   <h2 class="section__title">About</h2>
   <div class="prose">
     <p>
-      I am a third-year Ph.D. student in Computer Science at the
+      I am a fourth-year Ph.D. student in Computer Science at the
       <strong>University of Maryland, College Park</strong>, advised by
       <a href="https://www.cs.umd.edu/~heng/">Heng Huang</a>,
       Brendan Iribe Endowed Professor of Computer Science.
@@ -22,15 +22,21 @@ redirect_from:
       where I was fortunate to work with Prof. <a href="https://xusun26.github.io/">Xu Sun</a>.
     </p>
     <p>
-      My research is about building <strong>stronger large language models and vision-language
-      models</strong>, alongside efforts to enhance their reliability and ensure their safe use.
-      Recently I have focused on generative model watermarking — for language, speech, audio,
-      and proteins — as well as data selection and preference optimization for multimodal models.
+      My research is about making generative models <strong>more capable</strong> and, just as
+      importantly, <strong>more trustworthy</strong>. On the capability side, I work on data
+      selection, preference optimization, and test-time scaling for vision-language understanding
+      and image generation. On the trustworthiness side, I design distortion-free watermarks that
+      carry provenance signals at no cost to generation quality, across text, speech, audio, and
+      protein sequences, and I study attacks such as watermark removal, since robustness against
+      an adversary is what makes these guarantees usable in practice.
     </p>
     <p>
       I am always happy to connect. Feel free to email me at
       <a href="mailto:rbchen@umd.edu">rbchen [at] umd [dot] edu</a>
       if you are interested in my research or possible collaborations.
+    </p>
+    <p>
+      <strong>I am actively looking for research internship opportunities for Spring and Summer 2027!</strong>
     </p>
   </div>
 </section>
@@ -50,7 +56,12 @@ redirect_from:
 <section class="section">
   <h2 class="section__title">Selected Publications</h2>
   <p class="note">* denotes equal contribution.</p>
-  {% include pub-list.html selected_only="true" %}
+  {% include pub-list.html selected_only="true" kind="published" %}
+</section>
+
+<section class="section">
+  <h2 class="section__title">Preprints</h2>
+  {% include pub-list.html selected_only="true" kind="preprint" %}
   <p class="more-link">
     <a href="{{ '/publications/' | relative_url }}">See all publications &rarr;</a>
     &nbsp;·&nbsp;
@@ -65,14 +76,25 @@ redirect_from:
       <span class="timeline__when">2026</span>
       <span class="timeline__what">
         <strong>Research Scientist Intern</strong>
-        <span class="where">TikTok</span>
+        <span class="where">TikTok, San Jose, CA &middot; Mentor: Jian Du</span>
+        <ul class="timeline__points">
+          <li>Developed the core watermarking algorithms for ByteDance LLM products, improving
+              the detectability and security of distortion-free LLM watermarks.</li>
+          <li>Built and pretrained VAE-free multi-scale pixel-space diffusion transformers for
+              class-conditional and text-to-image generation.</li>
+        </ul>
       </span>
     </li>
     <li>
       <span class="timeline__when">2025</span>
       <span class="timeline__what">
         <strong>Research Scientist Intern</strong>
-        <span class="where">TikTok</span>
+        <span class="where">TikTok, San Jose, CA &middot; Mentors: Jiacheng Pan, Zhenheng Yang</span>
+        <ul class="timeline__points">
+          <li>Mitigated the training-inference mismatch in text-to-image models by training an LLM
+              with RL to align user prompts with the model's input distribution, improving
+              generation quality.</li>
+        </ul>
       </span>
     </li>
   </ul>

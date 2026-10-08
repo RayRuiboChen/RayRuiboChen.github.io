@@ -2,10 +2,13 @@
   Renders publications from _data/publications.yml.
   Params (set before the include):
     include.selected_only : "true" to show only entries with selected: true
+    include.kind          : "preprint" or "published" to show only that group
 {% endcomment %}
 <ol class="pubs">
 {% for pub in site.data.publications %}
   {% if include.selected_only == "true" and pub.selected != true %}{% continue %}{% endif %}
+  {% if include.kind == "preprint" and pub.preprint != true %}{% continue %}{% endif %}
+  {% if include.kind == "published" and pub.preprint == true %}{% continue %}{% endif %}
   {% assign primary = pub.links | first %}
   <li class="pub">
     <div class="pub__badge">
@@ -17,14 +20,7 @@
         {% if primary %}<a href="{{ primary.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
       </h3>
       <p class="pub__authors">{{ pub.authors | replace: 'Ruibo Chen', '<strong>Ruibo Chen</strong>' }}</p>
-      <p class="pub__meta">
-        {{ pub.venue_full }}{% if pub.note %} &middot; <span class="pub__note">{{ pub.note }}</span>{% endif %}
-      </p>
-      {% if pub.links and pub.links.size > 0 %}
-      <div class="pub__links">
-        {% for link in pub.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% endfor %}
-      </div>
-      {% endif %}
+      <p class="pub__meta">{{ pub.venue_full }}{% if pub.note %} &middot; <span class="pub__note">{{ pub.note }}</span>{% endif %}{% for link in pub.links %} &middot; <a class="pub__link" href="{{ link.url }}">{{ link.name }}</a>{% endfor %}</p>
     </div>
   </li>
 {% endfor %}
